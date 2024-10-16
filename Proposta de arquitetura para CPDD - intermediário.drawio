@@ -1,9 +1,99 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Page-1" id="2fwOL7RRN2srkxSSSRam">
-    <mxGraphModel>
+    <mxGraphModel dx="1418" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VK3KqI7mc5CVR1xsNMQ7-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VK3KqI7mc5CVR1xsNMQ7-2" target="VK3KqI7mc5CVR1xsNMQ7-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="285" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VK3KqI7mc5CVR1xsNMQ7-2" value="Discord Plugin usando discordJs" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="227.5" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VK3KqI7mc5CVR1xsNMQ7-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VK3KqI7mc5CVR1xsNMQ7-4" target="VK3KqI7mc5CVR1xsNMQ7-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VK3KqI7mc5CVR1xsNMQ7-4" value="Micro serviço de notificações&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="200" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VK3KqI7mc5CVR1xsNMQ7-5" value="MariaDb" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="380" y="190" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VK3KqI7mc5CVR1xsNMQ7-6" value="Responsabilidades" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="VK3KqI7mc5CVR1xsNMQ7-7" value="Capturar eventos do discord" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VK3KqI7mc5CVR1xsNMQ7-6">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VK3KqI7mc5CVR1xsNMQ7-8" value="Enviar requisição para o micro serviço de notificação&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VK3KqI7mc5CVR1xsNMQ7-6">
+          <mxGeometry y="60" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VK3KqI7mc5CVR1xsNMQ7-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="VK3KqI7mc5CVR1xsNMQ7-8" target="VK3KqI7mc5CVR1xsNMQ7-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VK3KqI7mc5CVR1xsNMQ7-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VK3KqI7mc5CVR1xsNMQ7-11" target="VK3KqI7mc5CVR1xsNMQ7-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VK3KqI7mc5CVR1xsNMQ7-11" value="Responsabilidades" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="80" width="140" height="180" as="geometry">
+            <mxRectangle x="30" y="140" width="140" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VK3KqI7mc5CVR1xsNMQ7-12" value="Receber e processar requisições do plugin" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VK3KqI7mc5CVR1xsNMQ7-11">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VK3KqI7mc5CVR1xsNMQ7-13" value="Inserir e modificar dados no banco de dados" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VK3KqI7mc5CVR1xsNMQ7-11">
+          <mxGeometry y="60" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VK3KqI7mc5CVR1xsNMQ7-30" value="Autenticar requisições&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VK3KqI7mc5CVR1xsNMQ7-11">
+          <mxGeometry y="120" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VK3KqI7mc5CVR1xsNMQ7-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VK3KqI7mc5CVR1xsNMQ7-16" target="VK3KqI7mc5CVR1xsNMQ7-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VK3KqI7mc5CVR1xsNMQ7-16" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Fila RabbitMq&lt;/font&gt;" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="120" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VK3KqI7mc5CVR1xsNMQ7-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VK3KqI7mc5CVR1xsNMQ7-4" target="VK3KqI7mc5CVR1xsNMQ7-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VK3KqI7mc5CVR1xsNMQ7-18" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Fila RabbitMq&lt;/font&gt;" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="120" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VK3KqI7mc5CVR1xsNMQ7-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VK3KqI7mc5CVR1xsNMQ7-4" target="VK3KqI7mc5CVR1xsNMQ7-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VK3KqI7mc5CVR1xsNMQ7-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=40;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VK3KqI7mc5CVR1xsNMQ7-20" target="VK3KqI7mc5CVR1xsNMQ7-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VK3KqI7mc5CVR1xsNMQ7-20" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Fila RabbitMq&lt;/font&gt;" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="120" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VK3KqI7mc5CVR1xsNMQ7-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.2;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VK3KqI7mc5CVR1xsNMQ7-4" target="VK3KqI7mc5CVR1xsNMQ7-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VK3KqI7mc5CVR1xsNMQ7-23" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Worker envio de mensagens WhatsApp&amp;nbsp;&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="30" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VK3KqI7mc5CVR1xsNMQ7-25" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Worker envio de mensagens Telegram&amp;nbsp;&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="30" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VK3KqI7mc5CVR1xsNMQ7-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=40;exitDy=0;exitPerimeter=0;entryX=0.09;entryY=1.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VK3KqI7mc5CVR1xsNMQ7-18" target="VK3KqI7mc5CVR1xsNMQ7-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VK3KqI7mc5CVR1xsNMQ7-27" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Worker envio de mensagens Email&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="30" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VK3KqI7mc5CVR1xsNMQ7-35" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="530" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="VK3KqI7mc5CVR1xsNMQ7-36" value="Enviar mensagens via:&lt;div&gt;&lt;br&gt;- WhatsApp&lt;/div&gt;&lt;div&gt;- Telegram&lt;br&gt;- E-mail&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="30" width="150" height="65" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
