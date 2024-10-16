@@ -1,9 +1,142 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Page-1" id="2aty4bmN-_ZIGrIbJCNe">
-    <mxGraphModel>
+    <mxGraphModel dx="2268" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="3mUiZ1_jekCTY81mKMmy-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="3mUiZ1_jekCTY81mKMmy-2" target="3mUiZ1_jekCTY81mKMmy-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3mUiZ1_jekCTY81mKMmy-2" value="Discord Plugin usando discordJs" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="237.5" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3mUiZ1_jekCTY81mKMmy-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3mUiZ1_jekCTY81mKMmy-4" target="3mUiZ1_jekCTY81mKMmy-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3mUiZ1_jekCTY81mKMmy-4" value="Micro serviço de notificações&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="240" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3mUiZ1_jekCTY81mKMmy-5" value="MariaDb" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="390" y="230" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3mUiZ1_jekCTY81mKMmy-6" value="Responsabilidades" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="52.5" y="440" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="3mUiZ1_jekCTY81mKMmy-7" value="Capturar eventos do discord" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3mUiZ1_jekCTY81mKMmy-6">
+          <mxGeometry y="30" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3mUiZ1_jekCTY81mKMmy-8" value="Enviar requisição para o micro serviço de notificação&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3mUiZ1_jekCTY81mKMmy-6">
+          <mxGeometry y="70" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3mUiZ1_jekCTY81mKMmy-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="3mUiZ1_jekCTY81mKMmy-8" target="3mUiZ1_jekCTY81mKMmy-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3mUiZ1_jekCTY81mKMmy-11" value="Responsabilidades" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="230" width="140" height="120" as="geometry">
+            <mxRectangle x="30" y="140" width="140" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3mUiZ1_jekCTY81mKMmy-12" value="Receber e processar requisições do plugin" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3mUiZ1_jekCTY81mKMmy-11">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3mUiZ1_jekCTY81mKMmy-13" value="Inserir e modificar dados no banco de dados" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3mUiZ1_jekCTY81mKMmy-11">
+          <mxGeometry y="60" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3mUiZ1_jekCTY81mKMmy-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="3mUiZ1_jekCTY81mKMmy-16" target="3mUiZ1_jekCTY81mKMmy-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3mUiZ1_jekCTY81mKMmy-16" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Fila RabbitMq&lt;/font&gt;" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="160" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3mUiZ1_jekCTY81mKMmy-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3mUiZ1_jekCTY81mKMmy-4" target="3mUiZ1_jekCTY81mKMmy-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3mUiZ1_jekCTY81mKMmy-18" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Fila RabbitMq&lt;/font&gt;" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="160" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3mUiZ1_jekCTY81mKMmy-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3mUiZ1_jekCTY81mKMmy-4" target="3mUiZ1_jekCTY81mKMmy-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3mUiZ1_jekCTY81mKMmy-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=40;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="3mUiZ1_jekCTY81mKMmy-21" target="3mUiZ1_jekCTY81mKMmy-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3mUiZ1_jekCTY81mKMmy-21" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Fila RabbitMq&lt;/font&gt;" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="160" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3mUiZ1_jekCTY81mKMmy-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.2;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3mUiZ1_jekCTY81mKMmy-4" target="3mUiZ1_jekCTY81mKMmy-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3mUiZ1_jekCTY81mKMmy-23" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Worker envio de mensagens WhatsApp&amp;nbsp;&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="70" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3mUiZ1_jekCTY81mKMmy-24" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Worker envio de mensagens Telegram&amp;nbsp;&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="70" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3mUiZ1_jekCTY81mKMmy-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=40;exitDy=0;exitPerimeter=0;entryX=0.09;entryY=1.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3mUiZ1_jekCTY81mKMmy-18" target="3mUiZ1_jekCTY81mKMmy-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3mUiZ1_jekCTY81mKMmy-26" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Worker envio de mensagens Email&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="70" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3mUiZ1_jekCTY81mKMmy-27" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="540" y="40" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3mUiZ1_jekCTY81mKMmy-28" value="Enviar mensagens via:&lt;div&gt;&lt;br&gt;- WhatsApp&lt;/div&gt;&lt;div&gt;- Telegram&lt;br&gt;- E-mail&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="70" width="150" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="3mUiZ1_jekCTY81mKMmy-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="3mUiZ1_jekCTY81mKMmy-29" target="3mUiZ1_jekCTY81mKMmy-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3mUiZ1_jekCTY81mKMmy-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="3mUiZ1_jekCTY81mKMmy-29" target="3mUiZ1_jekCTY81mKMmy-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3mUiZ1_jekCTY81mKMmy-29" value="API Gateway" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="187.5" y="360" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3mUiZ1_jekCTY81mKMmy-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="3mUiZ1_jekCTY81mKMmy-13" target="3mUiZ1_jekCTY81mKMmy-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3mUiZ1_jekCTY81mKMmy-33" value="Micro micro serviço de autenticação&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="240" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3mUiZ1_jekCTY81mKMmy-34" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="230" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3mUiZ1_jekCTY81mKMmy-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3mUiZ1_jekCTY81mKMmy-33" target="3mUiZ1_jekCTY81mKMmy-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3mUiZ1_jekCTY81mKMmy-39" value="Responsabilidades" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="380" width="140" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="3mUiZ1_jekCTY81mKMmy-40" value="Ser o ponto de acesso centralizado para todas as nossas apis" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3mUiZ1_jekCTY81mKMmy-39">
+          <mxGeometry y="30" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3mUiZ1_jekCTY81mKMmy-41" value="Autenticar as requisições no micro serviço de autenticação&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3mUiZ1_jekCTY81mKMmy-39">
+          <mxGeometry y="80" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3mUiZ1_jekCTY81mKMmy-42" value="Ser o ponto de acesso para comunicação entre as apis" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3mUiZ1_jekCTY81mKMmy-39">
+          <mxGeometry y="130" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3mUiZ1_jekCTY81mKMmy-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3mUiZ1_jekCTY81mKMmy-40" target="3mUiZ1_jekCTY81mKMmy-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3mUiZ1_jekCTY81mKMmy-44" value="List" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="100" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="3mUiZ1_jekCTY81mKMmy-45" value="Gerenciar o banco de dados de usuários&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3mUiZ1_jekCTY81mKMmy-44">
+          <mxGeometry y="30" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3mUiZ1_jekCTY81mKMmy-46" value="Gereciar os tokens de acessos das apis" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3mUiZ1_jekCTY81mKMmy-44">
+          <mxGeometry y="70" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3mUiZ1_jekCTY81mKMmy-49" value="Autenticar tokens de requisição&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3mUiZ1_jekCTY81mKMmy-44">
+          <mxGeometry y="110" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3mUiZ1_jekCTY81mKMmy-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="3mUiZ1_jekCTY81mKMmy-45" target="3mUiZ1_jekCTY81mKMmy-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
