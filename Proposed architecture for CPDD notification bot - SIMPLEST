@@ -4,51 +4,54 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="F3JOQbVi19SrXzwAyVQB-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="F3JOQbVi19SrXzwAyVQB-1" target="F3JOQbVi19SrXzwAyVQB-3">
+        <mxCell id="F3JOQbVi19SrXzwAyVQB-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="F3JOQbVi19SrXzwAyVQB-1" target="F3JOQbVi19SrXzwAyVQB-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="425" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="F3JOQbVi19SrXzwAyVQB-1" value="Discord Plugin usando discordJs" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="F3JOQbVi19SrXzwAyVQB-1" value="Discord Plugin usando discordJs" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="367.5" y="500" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="F3JOQbVi19SrXzwAyVQB-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F3JOQbVi19SrXzwAyVQB-3" target="F3JOQbVi19SrXzwAyVQB-5">
+        <mxCell id="F3JOQbVi19SrXzwAyVQB-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="F3JOQbVi19SrXzwAyVQB-3" target="F3JOQbVi19SrXzwAyVQB-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="550" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="F3JOQbVi19SrXzwAyVQB-3" value="Micro serviço de notificações&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="F3JOQbVi19SrXzwAyVQB-3" value="Micro serviço de notificações&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="365" y="380" width="125" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="F3JOQbVi19SrXzwAyVQB-5" value="MariaDb" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="F3JOQbVi19SrXzwAyVQB-5" value="MariaDb" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="520" y="370" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="F3JOQbVi19SrXzwAyVQB-6" value="Responsabilidades" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="F3JOQbVi19SrXzwAyVQB-6" value="Responsabilidades" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="460" width="140" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="F3JOQbVi19SrXzwAyVQB-7" value="Capturar eventos do discord" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="F3JOQbVi19SrXzwAyVQB-6">
+        <mxCell id="F3JOQbVi19SrXzwAyVQB-7" value="Capturar eventos do discord" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="F3JOQbVi19SrXzwAyVQB-6" vertex="1">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="F3JOQbVi19SrXzwAyVQB-8" value="Enviar requisição para o micro serviço de notificação&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="F3JOQbVi19SrXzwAyVQB-6">
+        <mxCell id="F3JOQbVi19SrXzwAyVQB-8" value="Enviar requisição para o micro serviço de notificação&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="F3JOQbVi19SrXzwAyVQB-6" vertex="1">
           <mxGeometry y="60" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="F3JOQbVi19SrXzwAyVQB-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="F3JOQbVi19SrXzwAyVQB-8" target="F3JOQbVi19SrXzwAyVQB-1">
+        <mxCell id="F3JOQbVi19SrXzwAyVQB-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="F3JOQbVi19SrXzwAyVQB-8" target="F3JOQbVi19SrXzwAyVQB-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="F3JOQbVi19SrXzwAyVQB-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="F3JOQbVi19SrXzwAyVQB-11" target="F3JOQbVi19SrXzwAyVQB-3">
+        <mxCell id="F3JOQbVi19SrXzwAyVQB-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="F3JOQbVi19SrXzwAyVQB-11" target="F3JOQbVi19SrXzwAyVQB-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="F3JOQbVi19SrXzwAyVQB-11" value="Responsabilidades" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="220" width="140" height="190" as="geometry" />
+        <mxCell id="F3JOQbVi19SrXzwAyVQB-11" value="Responsabilidades" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="210" width="140" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="F3JOQbVi19SrXzwAyVQB-12" value="Receber e processar requisições do plugin" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="F3JOQbVi19SrXzwAyVQB-11">
+        <mxCell id="F3JOQbVi19SrXzwAyVQB-12" value="Receber e processar requisições do plugin" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="F3JOQbVi19SrXzwAyVQB-11" vertex="1">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="F3JOQbVi19SrXzwAyVQB-13" value="Inserir e modificar dados no banco de dados" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="F3JOQbVi19SrXzwAyVQB-11">
+        <mxCell id="F3JOQbVi19SrXzwAyVQB-13" value="Inserir e modificar dados no banco de dados" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="F3JOQbVi19SrXzwAyVQB-11" vertex="1">
           <mxGeometry y="60" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="F3JOQbVi19SrXzwAyVQB-14" value="Enviar mensagens por:&lt;br&gt;&lt;div&gt;- WhatsApp&amp;nbsp;&lt;div&gt;-Telegram&lt;/div&gt;&lt;/div&gt;&lt;div&gt;- E-mail&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="F3JOQbVi19SrXzwAyVQB-11">
+        <mxCell id="F3JOQbVi19SrXzwAyVQB-14" value="Enviar mensagens por:&lt;br&gt;&lt;div&gt;- WhatsApp&amp;nbsp;&lt;div&gt;-Telegram&lt;/div&gt;&lt;/div&gt;&lt;div&gt;- E-mail&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="F3JOQbVi19SrXzwAyVQB-11" vertex="1">
           <mxGeometry y="120" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="b2ZV3W69xSxMXZVocwYc-1" value="Autenticar requisições&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="F3JOQbVi19SrXzwAyVQB-11">
+          <mxGeometry y="190" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
